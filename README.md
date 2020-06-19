@@ -10,9 +10,7 @@ To use user attribution in teams, you need to add one `OnBehalfOf` mention entit
 This is how a sample JSON would look like -
 ```json
 {
-...
-    "ChannelData": {
-        
+    "ChannelData": {       
         "OnBehalfOf": [{
             "itemid": 0,
             "mentionType": "person",
