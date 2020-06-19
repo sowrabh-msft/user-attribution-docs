@@ -5,7 +5,7 @@ Today when a bot sends a message, the sender name is always displayed to be the 
 In the screenshots below, the left side is the card how a message sent by a bot looks like without this feature. On the right is how the message sender looks like with user attribution.
 ![Screenshot](Picture10.png)
 
-To use user attribution in teams, you need to add one `OnBehalfOf` mention entity to your `Activity` payload in `ChannelData`.
+To use user attribution in teams, you need to add one `OnBehalfOf` mention entity to `ChannelData` in your `Activity` payload that is sent to Teams.
 
 This is how a sample JSON would look like -
 ```json
