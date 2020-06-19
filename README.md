@@ -21,8 +21,8 @@ This is how a sample Activity JSON with user attribution would look like -
     }
 }
 ```
-As you can see in the sample JSON `OnBehalfOf`is of Array type. Each entity of the array is of below type -
-## Details of the `OnBehalfOf` entity schema
+As you can see in the sample JSON `OnBehalfOf`is of Array type. Each entity of the array is of below type.
+## Details of  `OnBehalfOf` entity schema
 |Field|Type|Description|
 |:---|:---|:---|
 |`itemId`|Integer|Should be 0|
