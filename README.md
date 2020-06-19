@@ -7,9 +7,10 @@ In the screenshots below, the left side is the card how a message sent by a bot 
 
 To use user attribution in teams, you need to add one `OnBehalfOf` mention entity to `ChannelData` in your `Activity` payload that is sent to Teams.
 
-This is how a sample JSON would look like -
+This is how a sample Activity JSON with user attribution would look like -
 ```json
 {
+    "text": "Hello World!",
     "ChannelData": {       
         "OnBehalfOf": [{
             "itemid": 0,
@@ -20,6 +21,7 @@ This is how a sample JSON would look like -
     }
 }
 ```
+As you can see in the sample JSON `OnBehalfOf`is of Array type. Each entity of the array is of below type -
 ## Details of the `OnBehalfOf` entity schema
 |Field|Type|Description|
 |:---|:---|:---|
